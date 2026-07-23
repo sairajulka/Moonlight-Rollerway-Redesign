@@ -62,5 +62,51 @@ nav a {
     font-weight: bold;
 }
 nav a:hover {
-    color: #gold;
+    color: gold;
+} 
+
+/*hero section */
+.hero {
+    display: flex;
+    height: 450px;
+}
+
+.hero-image {
+    flex: 3;
+    background-color: lightgray;
+
+
+}
+.events {
+    flex: 1;
+    background-color: grey;
+    padding: 20px;
+    color: white;
+
+}
+
+/* intro section */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+
+}
+.graphic {
+    width: 450px;
+    height: 350px;
+    background: lightgray;
+}
+
+.intro-text {
+    text-align: center;
+}
+.intro-text h2 {
+    margin-bottom: 30px;
+}
+small-image {
+    width: 250px;
+    height: 220px;
+    background: lightgray;
 }
