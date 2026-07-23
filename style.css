@@ -105,8 +105,106 @@ nav a:hover {
 .intro-text h2 {
     margin-bottom: 30px;
 }
-small-image {
+.small-image {
     width: 250px;
     height: 220px;
     background: lightgray;
+}
+
+/* features */
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    gap: 60px;
+}
+.feature.reverse {
+    flex-direction: row-reverse;
+
+}
+.text {
+    flex: 1;
+}
+.text h3 {
+    margin-bottom: 10px;
+
+    font-style: regular;
+
+}
+
+.text h1 {
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+.text.button {
+    padding: 12px 22px;
+    border: none;
+    background:#ddd;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+.text button:hover {
+    background-color: #bbb;
+}
+.image
+    {
+        flex: 1;
+        height: 320px;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+.image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+/*intro section images */
+.graphic,
+.small-image{
+    overflow: hidden;
+}
+
+.graphic img,
+.small-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+   
+
+/*responsive */
+@media (max-width: 900px) {
+   .top-header {
+
+        flex-direction: column;
+        gap: 20px;
+
+   }
+nav ul {
+        flex-direction: column;
+        text-align: center;
+   }
+.hero {
+        flex-direction: column;
+        height: auto;
+   }
+.hero-image {
+        height: 350px;
+   }
+
+.feature,
+.feature.reverse,
+.intro {
+        flex-direction: column;
+    
+   }
+.graphic,
+.image,
+.small-image {
+        width: 100%;
+}
 }
