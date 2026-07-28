@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Mansalva', cursive, sans-serif;
+    font-family: 'Mansalva', sans-serif;
 }
 h2 {
     font-family: 'Roboto Slab' , serif;
@@ -160,8 +160,7 @@ body {
 
 .sub-title {
     display: block;
-    font-style: italic;
-    font-size: 1.0rem;
+    font-size: 1.1rem;
     margin-bottom: 10px;
 }
 
@@ -264,10 +263,11 @@ body {
 
 .info-row{
     display:grid;
-    grid-template: repeat(3, 1fr);
-    gap:10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
     padding:20px 16px;
     text-align:center;
+    align-items: start;
 }
 .info-card h4{
     font-family: 'Mansalva';
@@ -279,6 +279,28 @@ body {
 
 .placeholder-box{
     background-color:#d8d8d8;
-    height:60px;
+    height:140px;
     border-radius:2px;
+    width:100%;
+}
+
+.included-section{
+    display:flex;
+    gap:80px;
+    padding:30px 24px;
+    align-items:center;
+    max-width: 1200px;
+    margin:0 auto;
+    padding:30px 24px;
+}
+
+.included-text{
+    flex:1;
+}
+.included-placeholder{
+    height:250px;
+    flex:1;
+    border-radius: 4px;
+    background-color: #d8d8d8;
+  
 }
