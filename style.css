@@ -285,22 +285,17 @@ body {
 }
 
 .included-section{
-    display:flex;
-    gap:80px;
-    padding:30px 24px;
-    align-items:center;
+    display:grid;
+    grid-template-columns: 320px 700px;
+    justify-content: center;
+    column-gap: 60px;
     max-width: 1200px;
     margin:0 auto;
     padding:30px 24px;
 }
 
-.included-text{
-    flex:1;
-}
 .included-placeholder{
-    height:250px;
-    flex:1;
-    border-radius: 4px;
-    background-color: #d8d8d8;
-  
+    width:100%;
+    height: 250px;
+    background:#d8d8d8;
 }
