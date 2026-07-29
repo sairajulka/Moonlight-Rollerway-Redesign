@@ -386,8 +386,33 @@ body {
     pointer-events:none;
     z-index: 1;
 }
-
-
+.yellow-ring-right-1{
+    position:absolute;
+    width:130px;
+    height:130px;
+    border:12px solid #ded533;
+    border-radius:50%;
+    bottom:0;
+    right:0;
+}
+.yellow-ring-right-2{
+    position:absolute;
+    width:90px;
+    height:90px;
+    border:10px solid #ded533;
+    border-radius: 50%;
+    bottom:20px;
+    right:20px;
+}
+.cyan-ring-bottom{
+    position:absolute;
+    width:45px;
+    height:45px;
+    border:8px solid #00bcd4;
+    border-radius: 50%;
+    bottom:-5px;
+    right:90px;
+}
 
 
 
