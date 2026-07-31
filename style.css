@@ -315,3 +315,126 @@ body {
 .box-placeholder {
     height: 250px;
 }
+
+/* add-on section */
+.addons-container {
+   padding: 20px 0 60px 0;
+   position: relative;
+   max-width: 380px;
+   margin:0 auto;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+}
+.addons-title {
+   font-family: 'Roboto Slab' , serif;
+   font-weight: 900;
+   font-size: 2.0rem;
+   line-height: 1.2;
+   text-align: center;
+   font-family: 'Roboto Slab';
+   margin-bottom:20px;
+}
+.addons-grid{
+   display:flex;
+   flex-direction:column;
+   gap:20px;
+   width:100%;
+}
+.addon-item {
+   margin-bottom:16px;
+   text-align: center;
+}
+.addon-item h4 {
+   font-family:'Mansalva';
+   font-size: 14px;
+   margin-bottom: 6px;
+   font-weight: 600;
+}
+.addon-box{
+   background-color: #d8d8d8;
+   height:250px;
+   width:415px;
+   border-radius: 2px;
+}
+.ring-group-left {
+   position: absolute;
+   top:10px;
+   left:-500px;
+   width:260px;
+   height:260px;
+   pointer-events: none;
+   z-index:1;
+}
+.yellow-ring-1{
+    position:absolute;
+    width:240px;
+    height:240px;
+    border:18px solid #ded533;
+    border-radius: 50%;
+    top:0;
+    left:0;
+}
+.yellow-ring-2{
+   position:absolute;
+   width:180px;
+   height:180px;
+   border: 14px solid #ded533;
+   border-radius:50%;
+   top:30px;
+   left:30px;
+}
+.cyan-ring-top{
+   position:absolute;
+   width:80px;
+   height:80px;
+   border:11px solid #00bcd4;
+   border-radius:50%;
+   top:-10px;
+   left:135px;
+}
+.magenta-ring{
+   position:absolute;
+   width: 75px;
+   height:75px;
+   border:10px solid #e91e63;
+   border-radius:50%;
+   bottom:-60px;
+   left:-10px;
+}
+.ring-group-right{
+   position:absolute;
+   bottom:0px;
+   right:-400px;
+   width:240px;
+   height:240px;
+   pointer-events:none;
+   z-index: 1;
+}
+.yellow-ring-right-1{
+    position:absolute;
+    width:240px;
+    height:240px;
+    border:18px solid #ded533;
+    border-radius: 50%;
+    top:0;
+    left:0;
+}
+.yellow-ring-right-2{
+    position:absolute;
+    width:180px;
+    height:180px;
+    border: 14px solid #ded533;
+    border-radius:50%;
+    top:30px;
+    left:30px; 
+}
+.cyan-ring-bottom{
+   position:absolute;
+   width:45px;
+   height:45px;
+   border:7px solid #00bcd4;
+   border-radius: 50%;
+   bottom:-10px;
+   right:110px;
+}
