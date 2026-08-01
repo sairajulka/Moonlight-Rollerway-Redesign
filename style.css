@@ -359,8 +359,8 @@ body {
 }
 .ring-group-left {
    position: absolute;
-   top:10px;
-   left:-500px;
+   top:50px;
+   left:-520px;
    width:360px;
    height:360px;
    pointer-events: none;
@@ -386,21 +386,33 @@ body {
 }
 .cyan-ring-top{
    position:absolute;
-   width:80px;
-   height:80px;
-   border:11px solid #00bcd4;
+   width:70px;
+   height:70px;
+   border:5px solid #00bcd4;
    border-radius:50%;
-   top:-10px;
-   left:135px;
+   top:-7px;
+   right:-15px;
+   left:auto;
+}
+.cyan-ring-top-outer{
+    position:absolute;
+    width:110px;
+    height:110px;
+    border:11px solid#00bcd4;
+    border-radius: 50%;
+    top: -28px;
+    left:auto;
+    right:-35px;
 }
 .magenta-ring{
    position:absolute;
-   width: 75px;
-   height:75px;
-   border:10px solid #e91e63;
+   width: 150px;
+   height:150px;
+   border:20px solid #e91e63;
    border-radius:50%;
-   bottom:-60px;
-   left:-10px;
+   bottom: -100px;
+   left:30px;
+   right:20px;
 }
 .ring-group-right{
    position:absolute;
