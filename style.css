@@ -417,7 +417,7 @@ body {
 .ring-group-right{
    position:absolute;
    bottom:0px;
-   right:-400px;
+   right:-500px;
    width:240px;
    height:240px;
    pointer-events:none;
@@ -443,10 +443,22 @@ body {
 }
 .cyan-ring-bottom{
    position:absolute;
-   width:45px;
-   height:45px;
-   border:7px solid #00bcd4;
-   border-radius: 50%;
-   bottom:-10px;
-   right:110px;
+   width:70px;
+   height:70px;
+   border:5px solid #00bcd4;
+   border-radius:50%;
+   top:190px;
+   right:160px;
+   left:auto;
+}
+
+.cyan-ring-bottom-outer{
+    position:absolute;
+    width:110px;
+    height:110px;
+    border:11px solid#00bcd4;
+    border-radius: 50%;
+    top: 170px;
+    left:auto;
+    right:140px; 
 }
