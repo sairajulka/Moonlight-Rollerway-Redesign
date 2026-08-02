@@ -247,14 +247,12 @@ body {
 .hero-grid {
     display:grid;
     grid-template-columns: 1fr 1fr;
-    height:180px;
+    height: calc(100vh - 120px);
 }
 
 .hero-box-left{
     background-color: #727272;
     display:flex;
-    height: 640px;
-    flex:1;
 }
 .hero-box-right{
     background-color: #b5b5b5;
@@ -359,8 +357,8 @@ body {
 }
 .ring-group-left {
    position: absolute;
-   top:50px;
-   left:-520px;
+   top:100px;
+   left:-580px;
    width:360px;
    height:360px;
    pointer-events: none;
@@ -416,7 +414,7 @@ body {
 }
 .ring-group-right{
    position:absolute;
-   bottom:0px;
+   bottom:100px;
    right:-500px;
    width:240px;
    height:240px;
@@ -425,8 +423,8 @@ body {
 }
 .yellow-ring-right-1{
     position:absolute;
-    width:240px;
-    height:240px;
+    width:340px;
+    height:340px;
     border:18px solid #ded533;
     border-radius: 50%;
     top:0;
@@ -434,28 +432,28 @@ body {
 }
 .yellow-ring-right-2{
     position:absolute;
-    width:180px;
-    height:180px;
+    width:255px;
+    height:255px;
     border: 14px solid #ded533;
     border-radius:50%;
-    top:30px;
-    left:30px; 
+    top:40px;
+    left:40px; 
 }
 .cyan-ring-bottom{
    position:absolute;
-   width:70px;
-   height:70px;
-   border:5px solid #00bcd4;
+   width:133px;
+   height:133px;
+   border:8px solid #00bcd4;
    border-radius:50%;
-   top:190px;
-   right:160px;
+   top:210px;
+   right:180px;
    left:auto;
 }
 
 .cyan-ring-bottom-outer{
     position:absolute;
-    width:110px;
-    height:110px;
+    width:210px;
+    height:210px;
     border:11px solid#00bcd4;
     border-radius: 50%;
     top: 170px;
