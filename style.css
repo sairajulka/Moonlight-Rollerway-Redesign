@@ -529,3 +529,31 @@ body {
     border-radius: 4px;
     box-sizing:border-box;
 }
+
+.welcome-banner{
+    background:#d9d9d9;
+    width:100%;
+    min-height:460px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding:60px 20px;
+}
+
+.welcome-subtitle{
+    font-family:'Mansalva';
+    font-size:50px;
+    margin-bottom:25px;
+    line-height: 1.05;
+}
+
+.welcome-title{
+    font-family:'Roboto slab';
+    font-size:90px;
+    font-weight:900;
+    line-height:1.05;
+}
