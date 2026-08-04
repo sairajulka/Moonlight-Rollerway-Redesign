@@ -141,7 +141,9 @@ body {
 }
 
 .media-side, .text-side {
-    flex: 1;
+    flex: 1 1 0%;
+    width:50%;
+    min-width:0;
 
 }
 
@@ -152,7 +154,8 @@ body {
 }
 .landscape-box {
     height: 260px;
-    width:100%
+    width:100%;
+    object-fit: cover;
 }
 .small-box {
     height: 150px;
