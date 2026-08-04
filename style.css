@@ -150,8 +150,9 @@ body {
     background-color: #d1d1d1;
 
 }
-.box-placeholder {
-    height: 250px;
+.landscape-box {
+    height: 260px;
+    width:100%
 }
 .small-box {
     height: 150px;
@@ -542,7 +543,7 @@ body {
     margin-bottom:12px;
     color:#111;
     font-weight:600;
-    font-size:2rem;
+    font-size:1rem;
     font-family:'Mansalva';
 }
 
